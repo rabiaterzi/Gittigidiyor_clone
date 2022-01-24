@@ -1,0 +1,100 @@
+.row1 {
+    margin-left: 360px;
+    padding-top: 12px;
+}
+
+.buton {
+    font-size: 12px;
+    color: rgb(66, 66, 66);
+    background-color: white;
+    border: none;
+    width: max-content;
+    float: left;
+    margin-left: 15px;
+}
+
+.logo {
+    float: left;
+    margin-left: 125px;
+}
+
+.row2 {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.search-div {
+    display: flex;
+    align-items: center;
+    background-color: rgb(235, 233, 233);   
+    margin-left: 62px;
+    border-radius: 25px;
+}
+
+.search-div img {
+    height:20px;
+    width:20px;
+    float: left;
+
+    margin-left: 15px;
+}
+    
+.search-div input {
+    float: left;
+    border: none;
+    width: 590px;
+    margin-left: 5px;
+    background-color: rgb(235, 231, 231);
+}
+
+.search-div button {
+    float: left;
+    border: none;
+    background-color: rgb(85, 85, 250);
+    color: white;
+    width: 110px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.login {
+    float: left;
+    margin-left: 40px;
+}
+
+.login div{
+    float: left;
+    margin-left: 10px;
+}
+
+.login img {
+    float: left;
+    margin-top: 5px;
+}
+
+.login div label:nth-child(2) {
+    font-size: 8px;
+}
+
+.basket {
+    float: left;
+    margin-left: 20px;
+}
+
+.basket img, .login img {
+    height: 20px;
+    width: 20px;
+}
+
+.categories{
+    font-size: 14px;
+    border: none;
+    border-right: 1px solid rgb(168, 166, 166);
+    width: 100px;
+    width: min-content;
+}
+
+.category-row {
+    background-color: rgb(241, 238, 238);
+}
