@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+@media screen and (max-width: 800px){
+  .kesfet {
+    
+}
+}
+
+
+.text button img{
+  height: 15px;
+}
+
+
