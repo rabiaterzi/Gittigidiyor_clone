@@ -55,6 +55,7 @@ button{
   width: 1250px;
   height: 120px;
   align-content: center;
+  margin-top: 20px;
 }
 
 .kesfet{
@@ -98,6 +99,25 @@ button{
   margin-left: 9px; 
 }
 
+.firsat{
+  background-color: white;
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.firsat-text{
+  padding: 20px;
+}
+
+.firsat-images button, .firsat-images img{
+  width: 400px;
+  height: 270px;
+}
+
+.firsat label{
+  text-align: start;
+}
 
 
 

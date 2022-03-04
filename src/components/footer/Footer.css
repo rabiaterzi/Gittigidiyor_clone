@@ -1,0 +1,19 @@
+.body{
+    background-color: white;
+}
+
+.fst {
+    display: ;
+}
+
+.f1 p{
+    text-align: left;
+    font-size: 22px;
+}
+
+.f1 p:nth-child(2){
+    text-align: left;
+    font-size: 14px;
+    font-style: inherit;
+}
+
