@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/header/Header';
 import Slider from './components/slider/Slider';
-import Footer from './components/footer/Footer.jsx';
+import Footer from './components/footer/Footer';
 import image1 from './images/1.PNG'
 import image2 from './images/2.PNG'
 import image3 from './images/3.PNG'

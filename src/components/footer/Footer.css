@@ -2,13 +2,19 @@
     background-color: white;
 }
 
-.fst {
-    display: ;
+.fst p{
+    margin-left: 120px;
+}
+
+.f1{
+    padding-top: 50px;
 }
 
 .f1 p{
+    vertical-align: middle;
     text-align: left;
     font-size: 22px;
+    width: 950px;
 }
 
 .f1 p:nth-child(2){
@@ -17,3 +23,42 @@
     font-style: inherit;
 }
 
+.scd ul{
+    margin-top: 70px;
+    margin-right: 150px;
+}
+
+.scd li{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.scd img{
+    height: 125px;
+    width: 120px;
+}
+
+.f2 li{
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    margin-top: 6px;
+}
+
+.f2 ul{
+    margin-left: 80px;
+}
+
+.list1,.list2, .list3{
+    justify-items: center;
+}
+
+.list3 ul{
+    float: left;
+}
+
+.f3 img{
+    height: 50px;
+    width: 70px;
+    float: left;
+}

@@ -119,5 +119,15 @@ button{
   text-align: start;
 }
 
+.p-kategoriler img:first-child, .p-kategoriler img:nth-child(5), .p-kategoriler img:nth-child(9){
+  height: 40%;
+  width: 40%;
+}
+
+.p-kategoriler img{
+  height: 15%;
+  width: 15%;
+}
+
 
 
