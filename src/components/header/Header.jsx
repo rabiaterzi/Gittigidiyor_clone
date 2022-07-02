@@ -1,6 +1,10 @@
-import { Component, React } from "react";
 import { Row, Col } from "reactstrap";
 import "./Header.css";
+import Login from "../../pages/login";
+import Sign_up from "../../pages/sign-up";
+import Basket from "../../pages/basket";
+import { Component, React } from "react";
+import {Route, Switch, Link, BrowserRouter, Routes} from 'react-router-dom'
 
 class Header extends Component {
   state = {
@@ -29,8 +33,8 @@ class Header extends Component {
   };
 
   render() {
-    return (
-      <header>
+    return (  
+      <header>          
         <Row >
           <div className="row1">
             {this.state.names.map((name, i) => {
@@ -57,13 +61,17 @@ class Header extends Component {
               <button>BUL</button>
             </div>
             
-            <div className="login">
+            <div className="login" >
               <img src="https://cdn4.iconfinder.com/data/icons/basic-user-interface-elements/700/user-account-profile-human-avatar-face-head--256.png" />
               <div>
                 <label>Giriş Yap</label>
                 <br/>
                 <label>veya Üye Ol</label>
-              </div>         
+              </div>
+              <ul className="login-hover">
+                <li><Link to="/uye-girisi">Giriş Yap</Link></li>
+                <li><Link to="kayit-ol">Ücretsiz Üye Ol</Link></li>
+              </ul>         
             </div>
 
             <div className="basket">
